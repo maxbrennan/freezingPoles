@@ -1,0 +1,4 @@
+name: Freezing-Poles
+version: '${project.version}'
+main: com.max.freezingpoles.FreezingPoles
+api-version: 1.18
