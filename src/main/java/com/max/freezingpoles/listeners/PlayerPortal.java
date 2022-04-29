@@ -63,8 +63,20 @@ public class PlayerPortal implements Listener {
         nether.getBlock().setType(Material.OBSIDIAN);
         nether.setY(y + 4);
         nether.getBlock().setType(Material.OBSIDIAN);
-        nether.setX(x + 1);
+        nether.setX(x - 2);
         nether.getBlock().setType(Material.OBSIDIAN);
+        nether.setX(x - 1);
+        nether.getBlock().setType(Material.OBSIDIAN);
+        nether.setX(x);
+        nether.getBlock().setType(Material.OBSIDIAN);
+        nether.setY(y + 3);
+        nether.getBlock().setType(Material.OBSIDIAN);
+        nether.setY(y + 2);
+        nether.getBlock().setType(Material.OBSIDIAN);
+        nether.setY(y + 1);
+        nether.getBlock().setType(Material.OBSIDIAN);
+        nether.setX(x - 1);
+        nether.getBlock().setType(Material.FIRE);
 
     }
 
